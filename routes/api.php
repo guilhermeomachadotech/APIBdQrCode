@@ -10,3 +10,4 @@ Route::get('/user', function (Request $request) {
 
 
 Route::post('/qrcode', [QrCodeController::class, 'store']);
+Route::get('/qrcode', [QrCodeController::class, 'indexAPI']);
